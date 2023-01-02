@@ -1,0 +1,31 @@
+.centerDiv{
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    /* height: 600px; */
+}
+
+.centerDiv{
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.centerDiv > *{
+    padding: 5px;
+}
+
+
+
+.centerDiv{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 1000px;
+}
+.centerDiv button{
+    margin-left: 26em;
+}

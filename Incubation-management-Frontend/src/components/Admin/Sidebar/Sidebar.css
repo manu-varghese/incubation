@@ -1,0 +1,29 @@
+.sidebar {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+.sidebar ul {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+}
+.sidebar ul li {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 1rem 1rem;
+    width: 100%;
+    font-size: 1.2rem;
+    color: black;
+    border: none;
+}
+.sidebar ul li:hover {
+    background-color: rgb(41, 95, 212);
+    color: #fff;
+}
+
+li:hover{
+    cursor: pointer;
+}
